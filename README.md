@@ -5,7 +5,7 @@
 ### Desafio de Projeto - Recriando a interface do Netflix
 
 - :open_file_folder: interface
-  - :package:index.html
+  - :page_facing_up: index.html
 
 
 
