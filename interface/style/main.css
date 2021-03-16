@@ -12,8 +12,9 @@
 
 /*elementos base*/
 body{
+    /*background: var(--vermelho);*/
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Arial', Times, serif; 
     color:white; 
 }
 
@@ -26,9 +27,15 @@ header .container{
 
 header .logo{
     margin-left: 5px;
+    /*padding: 4px;
+    color: white;
+    border: solid 2px;
+    border-color: white;
+    background-color: #E50914;*/
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family:  'Arial Black', 'Dharma Gothic', 'Bebas', Times;
     font-size: 40px;
+    
 }
 
 header nav a{
@@ -46,7 +53,7 @@ header nav a:hover{
 .filme-principal{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-jessicajones.jpg');
-    
+  
     height:400px;
     background-size:cover;
 
@@ -54,6 +61,7 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
 } 
 
 .filme-principal .descricao{
@@ -101,4 +109,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;;
 }
