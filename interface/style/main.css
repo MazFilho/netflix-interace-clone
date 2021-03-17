@@ -35,10 +35,10 @@ header .logo{
     margin-left: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
-    padding: 0px;
+    padding: 0px 8px 0px 8px;
     color: white;
-    border: solid 3px;
-    border-color: white;
+    /*border: solid 2px;
+    border-color: white;*/
     /*color: var(--vermelho);*/
     font-family: 'Bebas','Dharma Gothic', 'Arial Black', Times;
     font-size: 40px;
@@ -116,7 +116,13 @@ header nav a:hover{
 .box-film{
     height: 100%;
     width: 100%;
-    display: block; 
+    display: block;
+}
+
+/*muda cursor ao clicar e arrastar sob elementos a do carrosel*/
+.item a:focus:active{
+    cursor: move;
+    cursor:grabbing;
 }
 
 .carrosel-filmes{
