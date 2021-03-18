@@ -17,7 +17,7 @@
 
 /*elementos base*/
 body{
-    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url('/img/marvel.jpg');
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url("../img/marvel.jpg");
     /*background: var(--preta);*/
     font-family: 'Bebas','Arial', Times, serif; 
     color:white; 
@@ -59,7 +59,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-jessicajones.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/capa-jessicajones.jpg");
   
     height:400px;
     background-size:cover;
